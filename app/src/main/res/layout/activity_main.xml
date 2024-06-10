@@ -23,7 +23,7 @@
 
             <TextView
                 android:id="@+id/lblProducto"
-                android:layout_width="wrap_content"
+                android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Producto" />
@@ -42,7 +42,7 @@
 
             <TextView
                 android:id="@+id/lblPrecio"
-                android:layout_width="wrap_content"
+                android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Precio : " />
@@ -139,7 +139,7 @@
 
             <TextView
                 android:id="@+id/lblIGV"
-                android:layout_width="wrap_content"
+                android:layout_width="57dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="IGV : " />
@@ -160,17 +160,17 @@
 
             <TextView
                 android:id="@+id/lblDelivery"
-                android:layout_width="wrap_content"
+                android:layout_width="2dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Delivery : " />
 
             <CheckBox
-                android:id="@+id/chkSi"
+                android:id="@+id/chkDelivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CheckBox" />
+                android:text="Si" />
         </LinearLayout>
 
         <LinearLayout
@@ -201,7 +201,7 @@
 
             <TextView
                 android:id="@+id/lblTotalPagar"
-                android:layout_width="wrap_content"
+                android:layout_width="62dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Total : " />
